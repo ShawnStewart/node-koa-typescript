@@ -11,11 +11,11 @@
     "build": "tsc -p .",
     "test": "jest",
     "test:watch": "jest --watchAll",
+    "db:makemigration": "knex migrate:make --knexfile ./src/knexfile.ts",
+    "db:makeseed": "knex seed:make --knexfile ./src/knexfile.ts",
     "db:migrate": "knex migrate:latest --knexfile ./src/knexfile.ts",
     "db:rollback": "knex migrate:rollback --knexfile ./src/knexfile.ts",
-    "db:makemigration": "knex migrate:make --knexfile ./src/knexfile.ts",
     "db:seed": "knex seed:run --knexfile ./src/knexfile.ts",
-    "db:makeseed": "knex seed:make --knexfile ./src/knexfile.ts",
     "db:reset:hard": "yarn db:rollback 9999 && yarn db:migrate && yarn db:seed"
   },
   "dependencies": {

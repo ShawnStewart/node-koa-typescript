@@ -1,3 +1,5 @@
+![Koa image](https://miro.medium.com/max/1140/1*KV5Uyy1RYBh4TKvivBUAgQ.jpeg)
+
 Overview
 ========
 

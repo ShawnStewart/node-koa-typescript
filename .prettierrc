@@ -1,0 +1,16 @@
+{
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "printWidth": 120,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "overrides": [
+        {
+            "files": ["jest.config.js", "nodemon.json", "package.json", "tsconfig.json"],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}
